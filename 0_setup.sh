@@ -2,7 +2,6 @@ sudo apt update -y
 sudo apt install -y libvirt-dev acl
 
 
-
 sudo setfacl -m u:${USER}:rw /dev/kvm
 
 release_url="https://github.com/firecracker-microvm/firecracker/releases"
